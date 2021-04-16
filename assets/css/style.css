@@ -1,0 +1,146 @@
+    /*General Style*/
+      body {
+          font-size: 20px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      /* Padding for all Body Sections */
+      .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+      /* Nav Bar */
+      .navbar {
+          padding-top: 15px;
+          padding-bottom: 40px;
+          border: 0;
+          border-radius: 0;
+          margin-bottom: 0;
+          font-size: 16px;
+          letter-spacing: 5px;
+      }
+
+      /*Nav Bar Marine Bruno Header*/
+      .navbar-brand {
+          font-weight: 900;
+          font-size: 22px;
+          margin-top: 0px;
+          padding-bottom: 50px !important;
+      }
+
+      /*Nav Bar Menu/List*/
+      .navbar-nav li a {
+          border: 15px solid #9b9b9b;
+          margin-top: 30px;
+      }
+
+      /*Nav Bar Hover Underline and Color Change*/
+      .navbar-nav li a:hover {
+          color:maroon !important;
+          text-decoration: underline;
+      }
+
+      /* Photo Div */
+      .bg-1 {
+          background-image: url("https://raw.githubusercontent.com/MarineMasta/Alpaca-Portfolio/main/assets/images/charcoal.jpg");
+          height: auto;
+          width: auto;
+          background-size: cover;
+          color:white;
+          font-style: italic;
+          font-variant: small-caps;;
+      }
+
+      /*Marine Photo Blurry Feature*/
+      .img-circle {
+            -webkit-filter: blur(5px); -moz-filter: blur(5px); -o-filter: blur(5px); -ms-filter: blur(5px); filter: blur(5px); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5'); transition:-webkit-filter, -moz-filter, -o-filter, -ms-filter, filter, .2s; -webkit-transform:translateZ(0); transform:translateZ(0);
+            display: inline;
+        }
+
+        /*Marine Photo Unblur with Hover*/
+      .img-circle:hover {
+            -webkit-filter: blur(0px); -moz-filter: blur(0px); -o-filter: blur(0px); -ms-filter: blur(0px); filter: blur(0px); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+      }
+
+
+
+      /* About Section */
+      .bg-2 {
+          background-color: white;
+          color:#9b9b9b;
+      }
+      #WHO h2 {
+          padding-bottom: 50px;
+          font-weight: 800;
+          font-size: 40px;
+      }
+
+      /* My Work */
+      .bg-3 {
+          background-color:#9b9b9b;
+          color: white;
+      }
+      #WHAT h2 {
+        padding-bottom: 50px;
+        font-weight: 800;
+        font-size: 40px;
+    }
+      #WHAT img {
+          margin-bottom: 20px;
+      }
+      #WHAT a {
+          color: maroon;
+      }
+      #first {
+          width: 100%;
+          display: inline;
+      }
+            /*Changes the % of the screen taken up by the first project image when viewed on devices with screen width over 768px*/
+            @media (min-width: 768px) {
+                #first {
+                width: 35%;
+                }
+            }
+      #project2, #project3, #project4 {
+          width: 75%;
+          display: inline;
+      }
+
+      /* Contact Me*/
+      .bg-4 {
+          background-color: white;
+          color:#9b9b9b;
+      }
+      #CONTACT h2 {
+        padding-bottom: 50px;
+        font-weight: 800;
+        font-size: 40px;
+      }
+      .contacter {
+          color: maroon;
+          margin-bottom: 50px !important;
+      }
+      .contacter:hover {
+          color: maroon;
+          
+      }
+      .contacter:active {
+          text-decoration: underline;
+      }
+      .contacter:visited {
+          color:maroon
+      }
+
+      .modal {
+          top: 30%;
+      }
+
+
+        
+      /* Footer */
+      .bg-5 {
+          background-color: #9b9b9b;
+          color:white;
+          font-weight: 900;
+      }

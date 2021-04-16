@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!--Tab Title-->
+  <title>Marine Bruno</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Linking to CSS stylesheet-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"><link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--Linking to bootstrap-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="icon" type="image/png" href="./assets/images/Marine Bruno.png">
+
+</head>
+
+<!--Navigation/Menu-->
+<nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!--Heading/Name-->
+        <a class="navbar-brand">
+          <img src="./assets/images/Marine Bruno.png" class="img-responsive">
+        </a>
+      </div>
+      <!--Menu-->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#WHO">WHO AM I?</a></li>
+          <li><a href="#WHAT">MY WORK</a></li>
+          <li><a href="#CONTACT">CONTACT ME</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<body>
+    <!--Hero Image-->
+    <div class="container-fluid bg-1 text-center" aria-label="charcoal">
+        <!--Circular Portrait-->
+        <img src="./assets/images/marine.jpg"class="img-responsive img-circle" alt="Picture of Marine">
+        <h4>Hover Over Me!</h4>
+    </div>
+    <!--About Section-->
+    <div class="container-fluid bg-2 text-center" id="WHO">
+        <h2>Who Am I?</h2>
+        <p>My name is Marine Bruno.</p>
+        <p>I was born and raised in France, but have been living in the United States since I was eleven years old.</p>
+        <p>I always saw myself in politics, hence my experience in both federal and state politics and in campaign management, but...</p>
+        <p>I became interested in coding and debugging when I began reverse-engineering mobile game bots out of curiosity.</p>
+        <p>Months later, I was comfortable writing from scratch in most common languages, such as JS, python, and C++.</p>
+        <p>I now freelance in writing mobile game bots, debugging broken bots, and creating websites for political figures.</p>
+        <a href="./assets/Development Resume.pdf" target="_blank">
+          Click here to see my full resume.
+        </a></br></br>
+        <iframe src="./assets/Development Resume.pdf" height="390"></iframe>
+    </div>
+    <!--My Work Section-->
+    <div class="container-fluid bg-3 text-center" id="WHAT">
+        <h2>Check Out My Work</h2>
+        <!--First Project Row-->
+        <div class="row" style="display: inline;">
+            <div class="col-sm-12">
+              <a data-target="#Modal1" data-toggle="modal">
+                <img src="./assets/images/dark.png"class="img-responsive" id="first" alt="Discord Bot Output">
+                <br/>
+              <p>Mobile Game Bot</p>
+            </a>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <!--Other Projects Row-->
+        <div class="row">
+            <div class="col-sm-4">
+              <a href="https://github.com/rickyonthephone/Project1Repo" target="_blank">
+                <img src="./assets/images/rock.png"class="img-responsive" id="project2" alt="Brown baby alpaca in the grass">
+                <br/>
+              <p>Wine and Dine</p>
+            </a>
+            </div>
+            <div class="col-sm-4">
+              <a data-target="#Modal2" data-toggle="modal">
+                <img src="./assets/images/twins.png"class="img-responsive" id="project3" alt="Close up of a group of brown and white alpacas">
+                <br/>
+              <p>Political Site Home Template</p>
+            </a>
+            </div>
+            <div class="col-sm-4">
+              <a href="https://github.com/MarineMasta/Toolbox" target="_blank">
+                <img src="./assets/images/familia.png"class="img-responsive" id="project4" alt="Group of white and brown alpacas near water and rocks">
+                <br/>
+              <p>Password Generator</p>
+            </a>
+            </div>
+          </div>
+    </div>
+    <!--Contact Me Section-->
+    <div class="container-fluid bg-4 text-center" id="CONTACT">
+        <h2>Contact Me</h2>
+        <!--Phone, GitHub, Email Row-->
+        <div class="row">
+            <div class="col-sm-3">
+              <b>Phone</b>
+              <br/>
+              <a class="contacter" href="tel:7274822268">(727) 482-2268</a>
+            </div>
+            <div class="col-sm-3">
+              <b>Github</b>
+              <br/>
+              <a class="contacter" href="https://github.com/MarineMasta" target="_blank">https://github.com/MarineMasta</a>
+            </div>
+            <div class="col-sm-3">
+              <b>Email</b>
+              <br/>
+              <a class="contacter" href="mailto:marine.bruno98@gmail.com">marine.bruno98@gmail.com</a>
+            </div>
+            <div class="col-sm-3">
+              <b>LinkedIn</b>
+              <br/>
+              <a class="contacter" href="mailto:marine.bruno98@gmail.com">marine.bruno98@gmail.com</a>
+            </div>        
+          </div>
+        <br/>
+    </div>
+
+        <div class="modal" id="Modal1" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" style="text-align: center;">Shoot, these aren't open source projects!</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" style="text-align: center;">
+                  I would love to show you the ins and outs of my work by sharing my screen during an interview. I can also show you the output format through discord!
+              </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="modal" id="Modal2" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" style="text-align: center;">Shoot, we haven't deployed the website quite yet!</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" style="text-align: center;">
+                  I can show you how user-friendly the website is, both on the frontend and backend.
+              </div>
+          </div>
+        </div>
+        </div>
+
+<!--Footer-->
+<footer class="container-fluid bg-5 text-center">
+    <p>Page Made By Marine Bruno, source code available via my Github &hearts;</p>
+</footer>
+    
+</body>
+</html>
